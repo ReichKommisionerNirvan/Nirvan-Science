@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A student-friendly website explaining Sustainable Agriculture: practices, benefits, and actions anyone can take."
+    />
+    <title>Sustainable Agriculture</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-effects" aria-hidden="true">
+      <div class="blob b1"></div>
+      <div class="blob b2"></div>
+      <div class="blob b3"></div>
+      <div class="grain"></div>
+    </div>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Sustainable Agriculture home">
+          <span class="brand-mark" aria-hidden="true">🌱</span>
+          <span class="brand-text">Sustainable Agriculture</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+            <span class="nav-toggle-lines" aria-hidden="true"></span>
+            <span class="sr-only">Open menu</span>
+          </button>
+          <ul class="nav-menu" id="nav-menu">
+            <li><a href="#what">What it is</a></li>
+            <li><a href="#pillars">Core pillars</a></li>
+            <li><a href="#practices">Practices</a></li>
+            <li><a href="#impact">Why it matters</a></li>
+            <li><a href="#learn">Interact</a></li>
+            <li><a href="#action">Take action</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy" data-reveal>
+            <p class="eyebrow">Food systems • Climate • Communities</p>
+            <h1>Grow food in a way that protects soil, water, and people.</h1>
+            <p class="lead">
+              Sustainable agriculture focuses on producing food today while preserving the natural
+              resources and livelihoods we’ll need tomorrow.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#practices">Explore practices</a>
+              <a class="btn ghost" href="#learn">Try the interactives</a>
+            </div>
+
+            <dl class="hero-stats" aria-label="Key outcomes">
+              <div class="stat">
+                <dt>Soil health</dt>
+                <dd><span class="kpi" data-count="28" data-suffix="%">0%</span> higher organic matter*</dd>
+              </div>
+              <div class="stat">
+                <dt>Water</dt>
+                <dd><span class="kpi" data-count="35" data-suffix="%">0%</span> less runoff risk*</dd>
+              </div>
+              <div class="stat">
+                <dt>Biodiversity</dt>
+                <dd><span class="kpi" data-count="2.2" data-decimals="1" data-suffix="×">0×</span> more habitat*</dd>
+              </div>
+            </dl>
+            <p class="fineprint muted">
+              *Illustrative classroom-friendly indicators (not universal; outcomes vary by region and practice).
+            </p>
+          </div>
+
+          <div class="hero-card tilt" role="region" aria-label="Quick definition" data-reveal data-tilt>
+            <h2 class="card-title">In one sentence</h2>
+            <p class="card-body">
+              Sustainable agriculture is a set of farming methods that balance
+              <strong>environmental care</strong>, <strong>economic viability</strong>, and
+              <strong>social wellbeing</strong>.
+            </p>
+            <div class="card-list" aria-label="Examples">
+              <span class="chip">Cover crops</span>
+              <span class="chip">Crop rotation</span>
+              <span class="chip">Composting</span>
+              <span class="chip">Integrated pest management</span>
+              <span class="chip">Precision irrigation</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="what">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2>What is sustainable agriculture?</h2>
+            <p>
+              It’s an approach to farming and food production designed to work with nature rather
+              than against it—so farms stay productive long-term.
+            </p>
+          </div>
+
+          <div class="cards two">
+            <article class="card tilt" data-reveal data-tilt>
+              <h3>Goals</h3>
+              <ul class="list">
+                <li><strong>Protect resources:</strong> soil, water, air, and wildlife.</li>
+                <li><strong>Support farmers:</strong> stable income and safer working conditions.</li>
+                <li><strong>Feed communities:</strong> reliable, nutritious food supply.</li>
+              </ul>
+            </article>
+            <article class="card tilt" data-reveal data-tilt>
+              <h3>How it’s different</h3>
+              <ul class="list">
+                <li><strong>Prevention first:</strong> improve systems to reduce problems.</li>
+                <li><strong>Efficiency:</strong> use water, fertilizer, and energy wisely.</li>
+                <li><strong>Resilience:</strong> adapt to droughts, floods, and pests.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="pillars">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2>The three core pillars</h2>
+            <p>A sustainable farm is strong in all three areas—not just one.</p>
+          </div>
+
+          <div class="cards three">
+            <article class="card pillar tilt" data-reveal data-tilt>
+              <div class="pillar-icon" aria-hidden="true">🌍</div>
+              <h3>Environmental</h3>
+              <p>Reduce pollution, rebuild soil, save water, and protect ecosystems.</p>
+            </article>
+            <article class="card pillar tilt" data-reveal data-tilt>
+              <div class="pillar-icon" aria-hidden="true">💼</div>
+              <h3>Economic</h3>
+              <p>Farms must stay profitable so good practices can continue year after year.</p>
+            </article>
+            <article class="card pillar tilt" data-reveal data-tilt>
+              <div class="pillar-icon" aria-hidden="true">🤝</div>
+              <h3>Social</h3>
+              <p>Support fair labor, healthy communities, and responsible land stewardship.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="practices">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2>High-impact sustainable practices</h2>
+            <p>These methods can be combined to fit different climates and crops.</p>
+          </div>
+
+          <div class="accordion" data-accordion data-reveal>
+            <details open>
+              <summary>
+                <span>Soil health (cover crops, composting, reduced tillage)</span>
+                <span class="summary-meta">Build fertility</span>
+              </summary>
+              <div class="details-body">
+                <p>
+                  Healthy soil holds more water, stores more carbon, and supports stronger plants.
+                  Cover crops protect soil between harvests, compost returns nutrients, and reduced
+                  tillage helps prevent erosion.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>
+                <span>Water-smart farming (drip irrigation, mulching)</span>
+                <span class="summary-meta">Use less water</span>
+              </summary>
+              <div class="details-body">
+                <p>
+                  Water-efficient irrigation delivers moisture where it’s needed. Mulch reduces
+                  evaporation and can suppress weeds, lowering both water and labor demands.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>
+                <span>Integrated pest management (IPM)</span>
+                <span class="summary-meta">Prevent outbreaks</span>
+              </summary>
+              <div class="details-body">
+                <p>
+                  IPM combines monitoring, biological controls, habitat for beneficial insects, and
+                  targeted treatments only when necessary—reducing pesticide use and protecting
+                  biodiversity.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>
+                <span>Crop diversity (rotation, intercropping, agroforestry)</span>
+                <span class="summary-meta">Increase resilience</span>
+              </summary>
+              <div class="details-body">
+                <p>
+                  Diversity can break pest cycles and improve soil nutrients. Agroforestry adds
+                  trees to farms, supporting habitat and helping protect crops from wind and heat.
+                </p>
+              </div>
+            </details>
+            <details>
+              <summary>
+                <span>Precision agriculture (data-driven inputs)</span>
+                <span class="summary-meta">Reduce waste</span>
+              </summary>
+              <div class="details-body">
+                <p>
+                  Tools like soil testing and GPS-guided application can lower fertilizer and fuel
+                  use by applying inputs only where and when they’re needed.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="impact">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2>Why it matters</h2>
+            <p>Benefits show up in the environment, the economy, and public health.</p>
+          </div>
+
+          <div class="cards two">
+            <article class="card tilt" data-reveal data-tilt>
+              <h3>Environmental benefits</h3>
+              <ul class="list">
+                <li><strong>Less erosion:</strong> keeps soil on farms and out of waterways.</li>
+                <li><strong>Cleaner water:</strong> reduced runoff of nutrients and chemicals.</li>
+                <li><strong>Climate help:</strong> healthier soils can store more carbon.</li>
+              </ul>
+            </article>
+            <article class="card tilt" data-reveal data-tilt>
+              <h3>Community benefits</h3>
+              <ul class="list">
+                <li><strong>Stable food supply:</strong> resilient farms handle shocks better.</li>
+                <li><strong>Health:</strong> fewer pollutants and safer working conditions.</li>
+                <li><strong>Local economies:</strong> sustainable markets support rural jobs.</li>
+              </ul>
+            </article>
+          </div>
+
+          <div class="callout" role="note" aria-label="Key idea" data-reveal>
+            <p>
+              <strong>Key idea:</strong> sustainability is not one “perfect” method—it's continuous
+              improvement based on local conditions and good science.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="learn">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2>Learn by doing</h2>
+            <p>
+              Try the interactives below. They’re designed for quick learning, classroom demos, and
+              project presentations.
+            </p>
+          </div>
+
+          <div class="cards two">
+            <article class="card tilt" data-reveal data-tilt>
+              <h3>Mini-quiz (30 seconds)</h3>
+              <p class="muted">Pick the best answer. Your score updates instantly.</p>
+
+              <div class="quiz" data-quiz>
+                <div class="quiz-row">
+                  <p class="quiz-q"><strong>1)</strong> Which practice best reduces soil erosion?</p>
+                  <div class="quiz-opts" role="group" aria-label="Quiz question 1">
+                    <button class="btn quiz-opt" type="button" data-q="q1" data-a="0">Deep tillage</button>
+                    <button class="btn quiz-opt" type="button" data-q="q1" data-a="1">Cover crops</button>
+                    <button class="btn quiz-opt" type="button" data-q="q1" data-a="0">Overwatering</button>
+                  </div>
+                </div>
+
+                <div class="quiz-row">
+                  <p class="quiz-q"><strong>2)</strong> IPM stands for…</p>
+                  <div class="quiz-opts" role="group" aria-label="Quiz question 2">
+                    <button class="btn quiz-opt" type="button" data-q="q2" data-a="1">Integrated Pest Management</button>
+                    <button class="btn quiz-opt" type="button" data-q="q2" data-a="0">Instant Plant Medicine</button>
+                    <button class="btn quiz-opt" type="button" data-q="q2" data-a="0">Irrigation Pressure Method</button>
+                  </div>
+                </div>
+
+                <div class="quiz-row">
+                  <p class="quiz-q"><strong>3)</strong> A “pillar” of sustainability is…</p>
+                  <div class="quiz-opts" role="group" aria-label="Quiz question 3">
+                    <button class="btn quiz-opt" type="button" data-q="q3" data-a="0">Only high yield</button>
+                    <button class="btn quiz-opt" type="button" data-q="q3" data-a="1">Environmental + economic + social</button>
+                    <button class="btn quiz-opt" type="button" data-q="q3" data-a="0">Only organic farming</button>
+                  </div>
+                </div>
+
+                <div class="quiz-foot">
+                  <div class="score" aria-live="polite">
+                    Score: <strong><span data-score>0</span>/3</strong>
+                  </div>
+                  <button class="btn ghost" type="button" data-quiz-reset>Reset</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="card tilt" data-reveal data-tilt>
+              <h3>Meal impact estimator</h3>
+              <p class="muted">
+                Roughly compare weekly meal choices. This is a learning tool, not a scientific audit.
+              </p>
+
+              <form class="estimator" data-estimator>
+                <label class="label">
+                  <span>Beef meals per week</span>
+                  <input class="input" name="beef" type="range" min="0" max="14" value="2" />
+                </label>
+                <div class="range-row">
+                  <span class="muted">0</span>
+                  <output class="range-out" name="beefOut">2</output>
+                  <span class="muted">14</span>
+                </div>
+
+                <label class="label">
+                  <span>Plant-forward meals per week</span>
+                  <input class="input" name="plant" type="range" min="0" max="14" value="5" />
+                </label>
+                <div class="range-row">
+                  <span class="muted">0</span>
+                  <output class="range-out" name="plantOut">5</output>
+                  <span class="muted">14</span>
+                </div>
+
+                <div class="impact" aria-live="polite">
+                  <div class="impact-row">
+                    <span class="muted">Estimated weekly “impact points”</span>
+                    <strong><span data-impact>0</span></strong>
+                  </div>
+                  <div class="impact-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                    <div class="impact-fill" data-impact-fill></div>
+                  </div>
+                  <p class="muted fineprint">
+                    Model: beef adds more points than plant meals; lower is better.
+                  </p>
+                </div>
+              </form>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="action">
+        <div class="container">
+          <div class="section-head" data-reveal>
+            <h2>Take action</h2>
+            <p>Small choices add up. Pick a few realistic steps and stick with them.</p>
+          </div>
+
+          <div class="action-grid">
+            <form class="card action-card tilt" id="action-form" aria-label="Personal action planner" data-reveal data-tilt>
+              <h3>Your 30-second action plan</h3>
+              <p class="muted">Choose what matters most to you and get a printable checklist.</p>
+
+              <fieldset class="fieldset">
+                <legend>Focus areas</legend>
+                <label class="check">
+                  <input type="checkbox" name="focus" value="Reduce food waste (plan meals, store food well)" />
+                  <span>Reduce food waste</span>
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="focus" value="Buy seasonal/local when possible" />
+                  <span>Buy seasonal/local</span>
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="focus" value="Choose more plant-forward meals each week" />
+                  <span>Eat more plant-forward</span>
+                </label>
+                <label class="check">
+                  <input type="checkbox" name="focus" value="Support farms using sustainable practices" />
+                  <span>Support sustainable farms</span>
+                </label>
+              </fieldset>
+
+              <label class="label">
+                <span>Optional: your name</span>
+                <input class="input" type="text" name="name" placeholder="e.g., Alex" autocomplete="name" />
+              </label>
+
+              <div class="form-actions">
+                <button class="btn primary" type="submit">Generate checklist</button>
+                <button class="btn ghost" type="button" id="clear-btn">Clear</button>
+              </div>
+
+              <div class="result" id="result" aria-live="polite"></div>
+            </form>
+
+            <aside class="card tips tilt" aria-label="Quick tips" data-reveal data-tilt>
+              <h3>Quick tips for a project report</h3>
+              <ol class="list numbered">
+                <li><strong>Define the problem:</strong> soil loss, water scarcity, pests, emissions.</li>
+                <li><strong>Explain solutions:</strong> rotations, IPM, efficient irrigation, compost.</li>
+                <li><strong>Show trade-offs:</strong> costs, training, equipment, local climate.</li>
+                <li><strong>End with actions:</strong> consumer choices + policy + farm practices.</li>
+              </ol>
+              <p class="muted">
+                Want this turned into a multi-page site (Home, Practices, Gallery, Sources)? I can
+                expand it.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          <strong>Sustainable Agriculture</strong> — built as a simple, student-friendly demo site.
+        </p>
+        <p class="muted">
+          Tip: add a “Sources” section if your teacher requires citations.
+        </p>
+      </div>
+    </footer>
+
+    <button class="to-top" type="button" data-to-top aria-label="Back to top">
+      ↑
+    </button>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
